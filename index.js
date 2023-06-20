@@ -203,6 +203,9 @@ if (numero === 2){
 if (numero === 3){
     console.log('es un 3');
 }
+else {
+    console.log ("No es minguno de los anteriores")
+}
 
 
 
