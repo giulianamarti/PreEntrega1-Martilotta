@@ -190,7 +190,7 @@
 //SWITCH
 
 
-let numero = 3
+let numero = 30
 
 if (numero === 1){
     console.log('es un uno');
