@@ -189,32 +189,20 @@
 
 //SWITCH
 
+let entrada = prompt('Ingresá un nombre')
+while(entrada != 'ESC'){
+    switch (entrada) {
+        case 'Ana':
+            alert('Hola Ana')
+            break;
 
-let numero = 30
+        case 'Fede':
+            alert('Hola Fede')
+            break;
 
-if (numero === 1){
-    console.log('es un uno');
+        default:
+            alert('Quien sos? ')
+            break;
+    }
+    entrada = prompt('Ingresá un nombre')
 }
-
-if (numero === 2){
-    console.log('es un dos');
-}
-
-if (numero === 3){
-    console.log('es un 3');
-}
-else {
-    console.log ("No es minguno de los anteriores")
-}
-
-
-
-// switch (key) {
-//     case value:
-        
-//         break;
-
-//     default:
-//         break;
-// }
- 
