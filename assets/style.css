@@ -1,0 +1,273 @@
+
+
+@font-face {
+    font-family: 'bloverly';
+    src: url(../assets/fonts/bloverly.otf);
+}
+
+@font-face {
+    font-family: 'lemon-milk-bold';
+    src: url(../assets/fonts/lemon-milk-bold.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-color: #f2ebe6;
+}
+
+.logo{
+    width: 230px;
+    height: 100px;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+nav a {
+    font-family: 'lemon-milk-bold';
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+nav {
+    display: inline-block;
+    text-align: center;
+
+}
+
+/* centra el texto nav */
+.menu { 
+    text-align: center;
+} 
+
+h2{
+    text-align: center;
+    font-family: 'lemon-milk-bold';
+    padding: 30px;
+}
+
+h3{
+    font-family: 'lemon-milk-bold';
+}
+
+
+.imagenes {
+    width: 270px;
+    height: 330px;
+    display: inline-block;
+   
+}
+
+
+.vermas {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.leyenda {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+
+.destacados{
+    padding: 20px;
+    margin: 10px;
+    padding-bottom: 100px;
+}
+
+nav {
+    padding: 50px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.mayorista {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo{
+    padding: 50x;
+}
+
+.categorias {
+    padding: 20px;
+}
+
+aside ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding-left: 50px;
+    
+    
+}
+
+aside {
+    width: 20%;
+    float: left;
+    margin: 10px;
+  }
+
+
+section h3{
+    font-size: 20px;
+}
+
+section p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor-info {
+    text-align: center;
+  }
+  
+  .derecha,
+  .izquierda,
+  .medio {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    vertical-align: top;
+  }
+  
+  div section img {
+    width: 40px;
+  }
+
+  .contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+  .contenedor-de-fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contenedor-de-fotos img {
+    margin: 10px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  }
+
+  footer {
+    background-color: whitesmoke;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    margin-top: 50px;
+
+}
+  .info-footer ul{
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.logo-footer{
+    width: 20px;
+}
+ 
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociales img {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'lemon-milk-bold';
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid whitesmoke;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  input[type="reset"],
+  input[type="submit"] {
+    
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #f2ebe6;
+    font-family: 'lemon-milk-bold';
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  input[type="reset"]:hover,
+  input[type="submit"]:hover {
+    background-color: whitesmoke;
+  }
+  
+  input[type="reset"]:focus,
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  
+  input[type="reset"]:active,
+  input[type="submit"]:active {
+    transform: translateY(2px);
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+
+
+
+
